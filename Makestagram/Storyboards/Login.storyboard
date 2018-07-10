@@ -78,7 +78,7 @@
                     <navigationItem key="navigationItem" id="jxd-2j-FzH"/>
                     <connections>
                         <outlet property="logInButton" destination="vY7-dQ-sCI" id="f5J-2M-Ro2"/>
-                        <segue destination="uYA-fq-xwc" kind="show" identifier="toCreateUsername" id="tCD-gx-yF4"/>
+                        <segue destination="uYA-fq-xwc" kind="show" identifier="toCreateUsername" id="rCb-K2-pJC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGj-nC-y6N" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -150,12 +150,13 @@
                         <viewLayoutGuide key="safeArea" id="WjZ-AF-zfQ"/>
                     </view>
                     <connections>
-                        <outlet property="username" destination="z50-i1-T0R" id="L3W-v8-S24"/>
+                        <outlet property="nextButton" destination="2YH-gT-Hrj" id="QH9-fq-N9B"/>
+                        <outlet property="usernameTextField" destination="z50-i1-T0R" id="Lmd-Ct-m8F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tA9-6y-lTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1724" y="108.39580209895054"/>
+            <point key="canvasLocation" x="1914" y="114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ztz-pg-79u">
