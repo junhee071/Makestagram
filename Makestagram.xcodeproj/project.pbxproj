@@ -17,11 +17,14 @@
 		B86C4EB020F5B3CE00838D46 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C4EAF20F5B3CE00838D46 /* Storyboard+Utility.swift */; };
 		B8898F358063E023797AD0AF /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB0E62AF4E1409ACBF35A70 /* Pods_Makestagram.framework */; };
 		B8D71AB020F3CCE9008EFC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D71AAF20F3CCE9008EFC95 /* AppDelegate.swift */; };
-		B8D71AB220F3CCEA008EFC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D71AB120F3CCEA008EFC95 /* ViewController.swift */; };
 		B8D71AB520F3CCEA008EFC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D71AB320F3CCEA008EFC95 /* Main.storyboard */; };
 		B8D71AB820F3CCEA008EFC95 /* Makestagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8D71AB620F3CCEA008EFC95 /* Makestagram.xcdatamodeld */; };
 		B8D71ABA20F3CCEA008EFC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D71AB920F3CCEA008EFC95 /* Assets.xcassets */; };
 		B8D71ABD20F3CCEA008EFC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D71ABB20F3CCEA008EFC95 /* LaunchScreen.storyboard */; };
+		B8EA942D20F675AC00CADF1F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA942C20F675AC00CADF1F /* HomeViewController.swift */; };
+		B8EA942F20F675B700CADF1F /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA942E20F675B700CADF1F /* FindFriendsViewController.swift */; };
+		B8EA943120F6842300CADF1F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA943020F6842300CADF1F /* MainTabBarController.swift */; };
+		B8EA943320F6A5D700CADF1F /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA943220F6A5D700CADF1F /* MGPhotoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,12 +40,15 @@
 		B86C4EAF20F5B3CE00838D46 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		B8D71AAC20F3CCE9008EFC95 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D71AAF20F3CCE9008EFC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8D71AB120F3CCEA008EFC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8D71AB420F3CCEA008EFC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8D71AB720F3CCEA008EFC95 /* Makestagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Makestagram.xcdatamodel; sourceTree = "<group>"; };
 		B8D71AB920F3CCEA008EFC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D71ABC20F3CCEA008EFC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8D71ABE20F3CCEA008EFC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EA942C20F675AC00CADF1F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8EA942E20F675B700CADF1F /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		B8EA943020F6842300CADF1F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B8EA943220F6A5D700CADF1F /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		FD2EF0DDAD18C52DA82176DD /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,10 +84,12 @@
 		B86C4E9420F40EA800838D46 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B8D71AB120F3CCEA008EFC95 /* ViewController.swift */,
 				B8D71AB920F3CCEA008EFC95 /* Assets.xcassets */,
 				B86C4EA120F41A3300838D46 /* LoginViewController.swift */,
+				B8EA942C20F675AC00CADF1F /* HomeViewController.swift */,
+				B8EA942E20F675B700CADF1F /* FindFriendsViewController.swift */,
 				B86C4EA720F52FDA00838D46 /* CreateUserNameViewController.swift */,
+				B8EA943020F6842300CADF1F /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 		B86C4E9620F40EFF00838D46 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B8EA943220F6A5D700CADF1F /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -320,10 +329,13 @@
 			files = (
 				B86C4EAC20F5659400838D46 /* UserService.swift in Sources */,
 				B86C4EA820F52FDA00838D46 /* CreateUserNameViewController.swift in Sources */,
+				B8EA943120F6842300CADF1F /* MainTabBarController.swift in Sources */,
 				B86C4EA220F41A3300838D46 /* LoginViewController.swift in Sources */,
-				B8D71AB220F3CCEA008EFC95 /* ViewController.swift in Sources */,
+				B8EA943320F6A5D700CADF1F /* MGPhotoHelper.swift in Sources */,
 				B8D71AB820F3CCEA008EFC95 /* Makestagram.xcdatamodeld in Sources */,
 				B86C4EA420F5230500838D46 /* User.swift in Sources */,
+				B8EA942F20F675B700CADF1F /* FindFriendsViewController.swift in Sources */,
+				B8EA942D20F675AC00CADF1F /* HomeViewController.swift in Sources */,
 				B86C4EB020F5B3CE00838D46 /* Storyboard+Utility.swift in Sources */,
 				B8D71AB020F3CCE9008EFC95 /* AppDelegate.swift in Sources */,
 				B86C4EAE20F5B29800838D46 /* Constants.swift in Sources */,
