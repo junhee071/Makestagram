@@ -34,12 +34,9 @@ class CreateUserNameViewController: UIViewController {
             
             User.setCurrent(user)
             
-            let storyboard = UIStoryboard(name: "Main", bundle: .main)
-            
-            if let initialViewController = storyboard.instantiateInitialViewController() {
-                self.view.window?.rootViewController = initialViewController
-                self.view.window?.makeKeyAndVisible()
-            }
+            let initialViewController = UIStoryboard.initialViewController(for: .main)
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
         }
         // 2
 //        let userAttrs = ["username": username]
