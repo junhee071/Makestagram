@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B802279420F7BB7C001E2622 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802279320F7BB7C001E2622 /* StorageService.swift */; };
+		B802279620F7BD90001E2622 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802279520F7BD90001E2622 /* PostService.swift */; };
+		B802279820F7C150001E2622 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802279720F7C150001E2622 /* Post.swift */; };
+		B802279A20F7C820001E2622 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802279920F7C820001E2622 /* UIImage+Size.swift */; };
+		B802279C20F7C8DB001E2622 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802279B20F7C8DB001E2622 /* StorageReference+Post.swift */; };
 		B86C4E9E20F413AD00838D46 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86C4E9D20F413AD00838D46 /* Login.storyboard */; };
 		B86C4EA020F418D000838D46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B86C4E9F20F418D000838D46 /* GoogleService-Info.plist */; };
 		B86C4EA220F41A3300838D46 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C4EA120F41A3300838D46 /* LoginViewController.swift */; };
@@ -30,6 +35,11 @@
 /* Begin PBXFileReference section */
 		44B4F76B7C36F19786714DF4 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		4AB0E62AF4E1409ACBF35A70 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B802279320F7BB7C001E2622 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B802279520F7BD90001E2622 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		B802279720F7C150001E2622 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B802279920F7C820001E2622 /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		B802279B20F7C8DB001E2622 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		B86C4E9D20F413AD00838D46 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B86C4E9F20F418D000838D46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B86C4EA120F41A3300838D46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				B86C4EAF20F5B3CE00838D46 /* Storyboard+Utility.swift */,
+				B802279920F7C820001E2622 /* UIImage+Size.swift */,
+				B802279B20F7C8DB001E2622 /* StorageReference+Post.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -114,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				B86C4EA320F5230500838D46 /* User.swift */,
+				B802279720F7C150001E2622 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				B86C4EAB20F5659400838D46 /* UserService.swift */,
+				B802279320F7BB7C001E2622 /* StorageService.swift */,
+				B802279520F7BD90001E2622 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -331,10 +346,15 @@
 				B86C4EA820F52FDA00838D46 /* CreateUserNameViewController.swift in Sources */,
 				B8EA943120F6842300CADF1F /* MainTabBarController.swift in Sources */,
 				B86C4EA220F41A3300838D46 /* LoginViewController.swift in Sources */,
+				B802279A20F7C820001E2622 /* UIImage+Size.swift in Sources */,
 				B8EA943320F6A5D700CADF1F /* MGPhotoHelper.swift in Sources */,
+				B802279C20F7C8DB001E2622 /* StorageReference+Post.swift in Sources */,
 				B8D71AB820F3CCEA008EFC95 /* Makestagram.xcdatamodeld in Sources */,
 				B86C4EA420F5230500838D46 /* User.swift in Sources */,
+				B802279420F7BB7C001E2622 /* StorageService.swift in Sources */,
 				B8EA942F20F675B700CADF1F /* FindFriendsViewController.swift in Sources */,
+				B802279820F7C150001E2622 /* Post.swift in Sources */,
+				B802279620F7BD90001E2622 /* PostService.swift in Sources */,
 				B8EA942D20F675AC00CADF1F /* HomeViewController.swift in Sources */,
 				B86C4EB020F5B3CE00838D46 /* Storyboard+Utility.swift in Sources */,
 				B8D71AB020F3CCE9008EFC95 /* AppDelegate.swift in Sources */,
